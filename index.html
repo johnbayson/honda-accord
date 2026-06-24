@@ -1084,7 +1084,7 @@ function Cts(key,anc){if(!key)return;var u=bp()+"/html/"+key+".html";if(anc&&anc
 function Tsl(k,sct,sc,sys,comp,sitq){curKey=k;curSct=sct;curSc=sc;curSys=sys;curComp=comp;curSitq=sitq}
 function Old(obj){try{var t="";if(obj&&obj.contentDocument)t=obj.contentDocument.title;else if(obj&&obj.document)t=obj.document.title;if(t)document.getElementById("cTitle").textContent=t}catch(e){}}
 function Jmp(){}
-function Prt(key,data){if(!key){doPrint();return}var u=bp()+"/html/"+key+".html";if(data)u+="#"+data;window.open(u,"ESM_ZOOM","width=1024,height=700,scrollbars=yes,resizable=yes,menubar=yes,toolbar=yes")}
+function Prt(key,data){if(!key){doPrint();return}var u=location.origin+"/honda-accord"+bp().substring(1)+"/html/"+key+".html";if(data)u+="#"+data;window.open(u,"ESM_ZOOM","width=1024,height=700,scrollbars=yes,resizable=yes,menubar=yes,toolbar=yes")}
 function Scl(){}
 
 /* ════════════════════════════════════════════
